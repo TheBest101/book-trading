@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+  <link rel="stylesheet" type="text/css" href="/public/css/css.css">
+</head>
+<body>
+  <div class="container">
+    <nav>
+      <h1>Book Trading Club</h1>
+      <h3>A FCC Project by Alex Dao</h3>
+      <a href="/" class="btn btn-primary">Home</a>
+      <a href="/profile" class="btn btn-primary">Profile</a>
+      <a href="/logout" class="btn btn-warning">Logout</a>
+    </nav>
+    <div class="form-group">
+      <h4>Add Books</h4>
+      <h3></h3>
+      <br />
+      <label>Title</label>
+      <input type="text" class="form-control" id="title">
+      <button class="btn btn-success" id="click">submit</button>
+    </div>
+  </div>
+  <script src="/common/ajax-request.js"></script>
+  <script src="/controllers/addBooks.client.js"></script>
+</body>
